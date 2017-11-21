@@ -9,9 +9,10 @@ import {searchItem, search} from './actions';
 
 const Item = ({item, index}) =>{ 
   return (
+    <div className="cajita">
    	<Row key={index} className="items">
       <Col >
-				<img src={planeta} width="100px"/>
+				<img src={item.pl_img} width="500px"/>
 			</Col>
       	
 			<Col >
@@ -24,6 +25,7 @@ const Item = ({item, index}) =>{
         Discovered in {item.pl_disc} with {item.pl_telescope}
 			</Col>
 		</Row>
+    </div>
  );
 }
 

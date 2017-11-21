@@ -40,3 +40,13 @@ h4{
 border: 1px solid #286090;
 padding-left: 15px;
 }
+
+.cajita{
+  width: 60%;
+
+  background: #e8e7e7;
+  padding: 40px;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 12px;
+}
